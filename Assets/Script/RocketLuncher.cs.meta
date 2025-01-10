@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 151b4a426ee01c1489f0d2645f9e47d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rocketPrefab: {fileID: -8943636932833412473, guid: fd29a42b6c2a63c4b88560f4b548a467, type: 3}
+  - shootPoint: {instanceID: 0}
+  - shootEffect: {instanceID: 0}
+  - objectRigidBody: {instanceID: 0}
+  - shotSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
