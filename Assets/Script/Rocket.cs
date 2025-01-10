@@ -22,7 +22,6 @@ public class Rocket : MonoBehaviour
             Destroy(_exp, 3);
         }
         knockBack();
-        Debug.Log("Rocket Collision");
         Destroy(gameObject);
     }
 
@@ -34,16 +33,11 @@ public class Rocket : MonoBehaviour
             Rigidbody2D rigg = nearby.GetComponent<Rigidbody2D>();
             if (rigg != null)
             {
-                // Force fixe d'explosion
-
-                // Calcul de la direction avec une composante vers le haut
+                
                 Vector2 direction = (rigg.transform.position - transform.position).normalized;
-
-                // Ajouter une composante verticale pour pousser vers le haut
-                direction += Vector2.up * 1f; // Augmente cette valeur pour une poussée plus verticale
-                direction.Normalize(); // Normalise la direction pour garder une force constante
-
-                // Appliquer la force
+                direction += Vector2.up * 1f;
+                direction.Normalize();
+                
                 rigg.AddForce(direction * explosionForce, ForceMode2D.Force);
             }
         }

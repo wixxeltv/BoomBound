@@ -8,15 +8,13 @@ public class Checkpoint : MonoBehaviour
     public Transform spawnPoint;
 
     private bool getCheckpoint;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         getCheckpoint = false;
         checkpointAudio = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         

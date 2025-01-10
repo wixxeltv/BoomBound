@@ -18,7 +18,6 @@ public class Shooter : MonoBehaviour
 
     protected IEnumerator fire()
     {
-        Debug.Log("Trying to fire");
         canFire = false;
         Shoot();
         yield return new WaitForSeconds(fireRate);
@@ -27,7 +26,6 @@ public class Shooter : MonoBehaviour
 
     void Shoot()
     {
-        Debug.Log("Audio go");
         shotSound.PlayOneShot(shotSound.clip);
         Rocket bullet = Instantiate(rocketPrefab, shootPoint.position, shootPoint.rotation);
         Vector2 direction = shootPoint.right;
