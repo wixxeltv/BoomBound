@@ -25,6 +25,7 @@
 ## Touches
 
 - Jouer sur manette
-- R1/RB pour tirer
+- R1/RB pour sauter
 - Joystick droit pour viser 
 - Joystick gauche pour bouger
+- R2/RT pour tirer
