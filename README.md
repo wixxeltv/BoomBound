@@ -21,3 +21,10 @@
 
 - Sauter puis tirer en dessous du joueur permet de s'envoler plus haut et plus loin.
 - Sur la dernière partie du niveau, il faut savoir se jeter vers l'inconnu...
+
+##Touches
+
+-Jouer sur manette
+-R1/RB pour tirer
+-Joystick droit pour viser 
+-Joystick gauche pour bouger
